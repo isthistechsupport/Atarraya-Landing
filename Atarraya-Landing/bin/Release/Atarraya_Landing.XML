@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Atarraya_Landing</name></assembly>
+<members>
+<member name="M:Extensions.String.implode(Microsoft.FSharp.Collections.FSharpList{System.Char})">
+<summary>
+ Converts a list of characters into a string.
+</summary>
+</member>
+<member name="M:Extensions.String.explode(System.String)">
+<summary>
+ Converts a string into a list of characters.
+</summary>
+</member>
+<member name="M:WebServer.start">
+<summary>
+ Starts the WebServer asyncronically and returns a CancellationTokenSource that can be used to stop its execution
+</summary>
+</member>
+</members>
+</doc>
