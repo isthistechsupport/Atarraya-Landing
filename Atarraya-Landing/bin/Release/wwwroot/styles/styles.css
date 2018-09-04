@@ -17,6 +17,7 @@ body{
 html, body{
   max-width: 100%;
   overflow-x: hidden;
+  overflow: hidden;
 }
 
 h3, p, hr{
@@ -138,4 +139,12 @@ img{
     margin: 0;
     margin-top: 10px;
 
+}
+
+#lineas{
+  position: absolute;
+  top: 55vh;
+  left: -45%;
+  opacity: 0.5;
+  z-index: 10;
 }
