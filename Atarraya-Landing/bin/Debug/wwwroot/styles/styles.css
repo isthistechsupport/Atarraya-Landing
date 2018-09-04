@@ -24,7 +24,7 @@ h3, p, hr{
 }
 
 #content{
-  align: center;
+  text-align: center;
   align-items: center;
   width: 100%;
   text-align: center;
