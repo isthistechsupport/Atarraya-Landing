@@ -1,0 +1,142 @@
+@font-face {
+font-family: MyriadPro-Light;
+src: url(/fonts/MyriadPro-Light.otf);
+}
+
+body{
+  font-family: MyriadPro-Light;
+  background-color: #274766 !important;
+  color: white;
+
+    background-image: url('images/photo.jpg');
+    background-position: right;
+    background-size: 50vw ;
+
+}
+
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h3, p, hr{
+  color: white !important;
+}
+
+#content{
+  align: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: -1;
+}
+
+#submit{
+  width: 40%;
+}
+
+#emailInput{
+  width: 65%;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    font-style: italic;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    font-style: italic;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    font-style: italic;
+}
+
+#submit{
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+
+#submit:hover{
+  background-color: white;
+}
+
+#text1{
+  color: white;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+#text2{
+  color: white;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-size: 20px;
+
+}
+
+
+#form{
+  width: 50% !important;
+  text-align: center !important;
+  align-items: center !important;
+  margin-top: 65vh;
+  margin-left: 30%;
+}
+
+#col1{
+  background-color: #274766;
+  height: 100vh;
+}
+
+#col2{
+  text-align: center;
+  align-items: center;
+}
+
+#logo{
+  width: 60%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+#text3{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: lighter;
+}
+
+#socialNContainer img {
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    align-self: center !important;
+}
+
+#socialNContainer{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+
+}
